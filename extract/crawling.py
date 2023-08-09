@@ -4,10 +4,14 @@ from pprint import pprint
 import json
 import xmltodict
 import pandas as pd
+import secret
+
+
+KEY = secret.get_api_key()
 
 startnum = 1
 endnum = 3
-
+# 광화문 덕수궁 뿐만 아니라, 다른 데이터도 가지고 올 수 있도록 수정하자.
 url = 'http://openapi.seoul.go.kr:8088/61626573486b797538384970536178/xml/citydata/1/2/광화문·덕수궁'
 # params = {
 #     'KEY': "61626573486b797538384970536178",
