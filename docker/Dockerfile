@@ -1,4 +1,4 @@
-# airflow image
+# the versioned Airflow image with specific Python version
 FROM apache/airflow:2.3.3-python3.8
 
 # COPY requirements file
