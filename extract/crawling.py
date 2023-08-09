@@ -86,20 +86,6 @@ for station in charger_stations:
             }
             charger_data.append(charger_info)
             
-            
-            
-            
-            
-            # print("CHARGER_ID:", charger_detail['CHARGER_ID'])
-            # print("CHARGER_TYPE:", charger_detail['CHARGER_TYPE'])
-            # print("CHARGER_STAT:", charger_detail['CHARGER_STAT'])
-            # print("STATUPDDT:", charger_detail['STATUPDDT'])
-            # print("LASTTSDT:", charger_detail['LASTTSDT'])
-            # print("LASTTEDT:", charger_detail['LASTTEDT'])
-            # print("NOWTSDT:", charger_detail['NOWTSDT'])
-            # print("OUTPUT:", charger_detail['OUTPUT'])
-            # print("METHOD:", charger_detail['METHOD'])
-            # print("-" * 40)
         except  TypeError: # 제대로 정보를 받아오지 못하는 경우(정보 누락 발생)
             print("충전기 정보가 없습니다.")
             continue
